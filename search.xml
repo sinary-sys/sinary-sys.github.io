@@ -13,14 +13,18 @@
       
       <categories>
           
-          <category> 机械臂Manipulator，论文列表 </category>
+          <category> 机械臂Manipulator </category>
+          
+          <category> 论文列表 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 机械臂，论文 </tag>
+            <tag> 机械臂 </tag>
+            
+            <tag> 论文 </tag>
             
         </tags>
       
