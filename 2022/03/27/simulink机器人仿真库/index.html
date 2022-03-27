@@ -16,13 +16,13 @@
 <meta property="og:description" content="simulink机器人仿真库 [TOC]">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/image-20220327131159671.png">
-<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327132517323.png">
+<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/image-20220327132517323.png">
 <meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327132908638.png">
-<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327133500482.png">
-<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327140329832.png">
-<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327154957257.png">
+<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/image-20220327133500482.png">
+<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/image-20220327140329832.png">
+<meta property="og:image" content="http://example.com/2022/03/27/simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93/image-20220327154957257.png">
 <meta property="article:published_time" content="2022-03-27T03:16:27.000Z">
-<meta property="article:modified_time" content="2022-03-27T08:27:09.319Z">
+<meta property="article:modified_time" content="2022-03-27T14:32:45.916Z">
 <meta property="article:author" content="sinary">
 <meta property="article:tag" content="机械臂">
 <meta property="article:tag" content="MATLAB仿真">
@@ -326,7 +326,7 @@ time, but the speed of the subsequent simulations is comparable to
 <h2 id="get-jacobian-获取雅可比矩阵">Get Jacobian 获取雅可比矩阵</h2>
 <p>Geometric Jacobian for robot configuration</p>
 <p>用于机器人配置的几何雅可比行列式</p>
-<p><img src="simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327132517323.png" alt="image-20220327132517323"  /></p>
+<p><img src="image-20220327132517323.png" alt="image-20220327132517323"  /></p>
 <ul>
 <li><strong>Library:</strong>Robotics System Toolbox / Manipulator
 Algorithms</li>
@@ -371,7 +371,7 @@ configuration, Config, returned as a 6-by-n matrix, where n is the
 number of degrees of freedom of the end effector. The Jacobian maps the
 joint-space velocity to the end-effector velocity relative to the base
 coordinate frame. The end-effector velocity equals:</p>
-<p><img src="simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327133500482.png" alt="image-20220327133500482"  /></p>
+<p><img src="image-20220327133500482.png" alt="image-20220327133500482"  /></p>
 <p><span class="math inline">\(\omega\)</span>is the angular velocity,
 <span class="math inline">\(v\)</span> is the linear velocity, and<span
 class="math inline">\(\dot q\)</span>is the joint-space velocity.</p>
@@ -433,7 +433,7 @@ time, but the speed of the subsequent simulations is comparable to
 <li><strong>Library:</strong>Robotics System Toolbox / Manipulator
 Algorithms</li>
 </ul>
-<p><img src="simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327140329832.png" alt="image-20220327140329832"  /></p>
+<p><img src="image-20220327140329832.png" alt="image-20220327140329832"  /></p>
 <h3 id="description-2">Description</h3>
 <p>The Get Transform block returns the homogeneous transformation
 between body frames on the <strong>Rigid body tree</strong> robot model.
@@ -528,7 +528,7 @@ time, but the speed of the subsequent simulations is comparable to
 <h2 id="gravity-torque">Gravity Torque</h2>
 <p>Joint torques that compensate gravity</p>
 <p>补偿重力的关节扭矩</p>
-<p><img src="simulink%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%BF%E7%9C%9F%E5%BA%93.assets/image-20220327154957257.png" alt="image-20220327154957257"  /></p>
+<p><img src="image-20220327154957257.png" alt="image-20220327154957257"  /></p>
 <h3 id="description-3">Description</h3>
 <p>The Gravity Torque block returns the joint torques required to hold
 the robot at a given configuration with the current <a
